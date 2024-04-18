@@ -1,0 +1,450 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #EDF2F7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #2B6CB0;
+    display: flex;
+}
+
+.cart{
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow: 0px 0px 3px 4px rgb(75, 83, 233);
+}
+
+
+.cart input[type=text], input[type=email], select, textarea  {
+        width: 80%;
+        max-width: 300px;
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+    
+.cart form input[type="submit"] {
+        border: none;
+        width: 50%;
+        max-width: 180px;
+        height: 50px;
+        margin-top: 10px;
+        background-color: #3498db;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+   
+    
+    /* CSS */
+    .button-73 {
+      appearance: none;
+      background-color: #FFFFFF;
+      border-radius: 40em;
+      border-style: none;
+      box-shadow: #ADCFFF 0 -12px 6px inset;
+      box-sizing: border-box;
+      color: #000000;
+      cursor: pointer;
+      display: inline-block;
+      font-family: -apple-system,sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -.24px;
+      margin: 0;
+      outline: none;
+      padding: 1rem 1.3rem;
+      quotes: auto;
+      text-align: center;
+      text-decoration: none;
+      transition: all .15s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-73:hover {
+      background-color: #FFC229;
+      box-shadow: #FF6314 0 -6px 8px inset;
+      transform: scale(1.125);
+    }
+    
+    .button-73:active {
+      transform: scale(1.025);
+    }
+    
+    @media (min-width: 768px) {
+      .button-73 {
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+      }
+    }
+
+
+
+
+
+
+
+h1.left{
+  text-align: left;
+}
+img{
+  float: right;
+  display: block;
+}
+.columleft{
+  padding: 20px;
+  flex: 1;
+}
+.col-md-4{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+}
+.row::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.col-md-8{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+}
+/*----------SEGUNDO PARRAFO--------*/
+
+.logo2{
+float: left;
+}
+.columright{
+padding: 20px;
+flex: 1;
+}
+.col-md-1{
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: right;
+}
+.row::after{
+display: table;
+content: "";
+clear: both;
+}
+.col-md-1{
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+float: right;
+}
+
+
+.parrafos  {
+    display: flex;
+
+  }
+
+.pf-1{
+    
+    margin-right: 25px;
+}
+
+.pf-1{
+    
+    margin-left: 25px;
+}
+.mision{
+    display: flex;
+   
+   
+}
+.mision1{
+    margin-left: 300px;
+    margin-right: 25px;
+
+}
+.vision{
+    margin-left:650px;
+    text-align: left;
+}
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+
+
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 18s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style:none;
+  
+  
+}
+
+.slider-frame img {
+	width: 100%;
+  padding-left: 1280px;
+  padding-right: 0px;
+  
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	35% {margin-left: -100%;}
+	
+	40% {margin-left: -200%;}
+  50% {margin-left: -200%;}
+	
+	55% {margin-left: -300%;}
+	65% {margin-left: -300%;}
+
+  70% {margin-left: -400%;}
+	80% {margin-left: -400%;}
+
+  85% {margin-left: -500%;}
+	90% {margin-left: -500%;}
+
+  95% {margin-left: -600%;}
+	100% {margin-left: -600%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+.contenedor_logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+nav > ul {
+    margin-right: 20px;
+}
+
+nav > ul > li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav > ul > li > a {
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #2D3748;
+}
+/* #2D3748 */
+
+footer p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+footer .marcas {
+    width: 100%;
+    height: 100px;
+    background-color: #4A5568;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer .marcas img {
+    width: 50px;
+}
+
+footer .logo_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:calc(100% - 100px);
+}
+
+footer .logo_footer img {
+    width: 100px;
+}
+
+.menu {
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: none;
+}
+
+label.error {
+    color: darkred;
+}
+
+input.error {
+    border: 2px solid darkred;
+}
+
+
+/*MEDIA QUERIES*/
+
+/*TABLET*/
+
+@media(max-width:1024px) {
+
+    .galeria {
+        grid-template-columns:1fr 1fr;
+    }
+
+    @keyframes animacion_producto_tablet {
+
+        0% {
+            opacity: 0;/*0-1*/
+        }
+
+        100% {
+            opacity: 1;
+        }
+
+    }
+
+    .productos .producto {
+        width: 50%;
+        animation: animacion_producto_tablet 2s;
+    }
+
+}
+
+/*SMARTPHONE*/
+@media(max-width:480px) {
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    @keyframes animacion_producto_smartphone {
+
+        0% {
+            transform: scale(0.1);/*0 - 1*/
+        }
+
+        80%{
+            transform: scale(1.05);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+
+    .productos .producto {
+        width: 100%;
+        animation: animacion_producto_smartphone 0.8s;
+    }
+
+    header {
+        flex-direction: column;
+        height: 60px;
+        transition: all 0.8s;
+        /*position: fixed;
+        left:0;
+        top:0;*/
+        overflow: hidden;
+    }
+
+    #contenido {
+        margin-top: 60px;
+    }
+
+    header > div {
+        width: 100%;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .contenedor_logo {
+        justify-content: center;
+    }
+
+    .logo {
+        margin-top: 15px;
+    }
+
+    nav > ul {
+        margin-right: 0;
+    }
+
+    nav > ul > li {
+        display: block;
+        margin:0;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+}
+

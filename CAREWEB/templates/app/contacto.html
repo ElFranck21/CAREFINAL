@@ -1,0 +1,33 @@
+{% extends 'app/base.html' %}
+
+
+{% block contenido %}
+
+<div class="cart">
+    <form action="" method="post">
+        
+        {% csrf_token %}
+        {{form}}
+        <button type="submit" id="guardar">Guardar</button>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<script>
+    const firebaseConfig = {
+        "apiKey": "AIzaSyAcdqLsDSx0SEs0PWxM4TMiqvmCQsi60zk",
+        "authDomain": "carev4-d40bd.firebaseapp.com",
+        "databaseURL": "https://carev4-d40bd-default-rtdb.firebaseio.com",
+        "projectId": "carev4-d40bd",
+        "storageBucket": "carev4-d40bd.appspot.com",
+        "messagingSenderId": "674192465775",
+        "appId": "1:674192465775:web:b14963e208177c8299929a",
+        "measurementId": "G-ZL4GS2DDGJ"
+    };
+
+    firebase.initializeApp(config);
+</script>
+{% endblock  %}
+    
